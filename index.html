@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>My Resume</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="https://img.icons8.com/plasticine/100/000000/file.png" type="image/png">
+    <link rel="stylesheet" href="./plugins/headline.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+    <nav>
+        <div class="dis-top">
+            <div class="left-nav">
+                <a href="#">
+                    <i class='bx bx-user-circle'></i>
+                    <h6>
+                        MY RESUME
+                    </h6>
+                </a>
+            </div>
+            <div class="right-nav">
+                <i class="bx bxs-moon" title="Theme" id="theme-button"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container">
+        <main class="top">
+            <div>
+                <img src="./images/resume head.jpg" alt="top image">
+            </div>
+        </main>
+
+        <main class="bottom">
+            <main class="left">
+                <div class="left-img">
+                    <div class="img">
+                        <img src="./images/logo-light.jpg" alt="logo-light" id="themeImg">
+                    </div>
+                </div>
+                <section class="sec">
+                    <div>
+                        <h4>SHASHIDHAR HEGDE</h4>
+                        <p class="cd-headline loading-bar">
+                            <span class="cd-words-wrapper">
+                                <b class="is-visible">Web Designer</b>
+                                <b>Web Developer</b>
+                            </span>
+                        </p>
+                    </div>
+                </section>
+                <section class="contact-sec">
+                    <ul class="contact">
+                        <li>
+                            <i class='bx bxs-phone-call'></i>
+                            <a href="tel:+91-9449431866" title="Call" target="__blank">&nbsp: +91-9449431866</a>
+                        </li>
+                        <li>
+                            <i class='bx bxs-envelope'></i>
+                            <a href="mailto: hegdeshashidhar123@gmail.com" title="Mail" target="__blank">&nbsp:
+                                hegdeshashidhar123@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class='bx bxs-map'></i>
+                            <a href="https://www.google.com/maps/d/u/0/embed?mid=1jjdOnB91E1dK8dHGVI3h8cHWE40&ll=13.072006049550708%2C77.63024850000004&z=11"
+                                title="Location" target="__blank">&nbsp: Bangalore, Karnataka, 560083</a>
+                        </li>
+                    </ul>
+                    <div class="button">
+                        <a href="./images/Resume-light.pdf" download id="download">
+                            <button>Download CV</button>
+                        </a>
+                    </div>
+                </section>
+                <section class="social-sec">
+                    <h5>SOCIAL</h5>
+                    <div class="lines"></div>
+                    <div class="inner-left">
+                        <ul class="social">
+                            <li>
+                                <a href="https://www.linkedin.com/in/hegde-shashi/" target="__blank" 
+                                    onmouseover=mouseOverLinkedin() onmouseout=mouseOutLinkedin()
+                                    title="https://www.linkedin.com/in/hegde-shashi/">
+                                    <i class='bx bxl-linkedin'></i>
+                                    <span id="linkedin">&nbsp LinkedIn</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.github.com/hegde-shashi/" target="__blank"
+                                    onmouseover=mouseOverGithub() onmouseout=mouseOutGithub()
+                                    title="https://www.github.com/hegde-shashi/">
+                                    <i class="uil uil-github-alt"></i>
+                                    <span id="github">&nbsp GitHub</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com/__hegdeshashi__/" target="__blank"
+                                    onmouseover=mouseOverTwitter() onmouseout=mouseOutTwitter()
+                                    title="https://www.twitter.com/__hegdeshashi__/">
+                                    <i class="uil uil-twitter"></i>
+                                    <span id="twitter">&nbsp Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/__hegde.shashi__/" target="__blank"
+                                    onmouseover=mouseOverInsta() onmouseout=mouseOutInsta()
+                                    title="https://www.instagram.com/__hegde.shashi__/">
+                                    <i class="uil uil-instagram"></i>
+                                    <span id="insta">&nbsp Instagram</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="button">
+                        <a href="./images/Resume-light.pdf" download id="downloadMbl">
+                            <button>Download CV</button>
+                        </a>
+                    </div>
+                </section>
+                <section class="abt-me-mbl">
+                    <h5>ABOUT ME!</h5>
+                    <div class="lines"></div>
+                    <div class="inner-left">
+                        <div class="about-sec">
+                            <p>I'm Shashidhar Hegde,</p>
+                            <p>Pursuing <span>BE(ECE)</span> in <span>AMC Engineering College,
+                                Bangalore.</span> Now Looking for an opportunity to utilize my acquired skills and
+                                training to help the company and my future peers to grow. I want my effort to
+                                make a considerable difference to the company and help in their consequent
+                                success. </p>
+                        </div>
+                </section>
+                <section>
+                    <h5>EDUCATION</h5>
+                    <div class="lines"></div>
+                    <div class="inner-left">
+                        <div class="timeline-wraper">
+                            <div class="education">
+                                <p>Highschool</p>
+                                <p>Marikamba Govt. Highshcool</p>
+                                <p>Karnataka State Board</p>
+                                <p>2013 - 2016</p>
+                                <p>92.8 %</p>
+                            </div>
+                            <div class="education">
+                                <p>Secondary Education</p>
+                                <p>MES PU College</p>
+                                <p>Karnataka State Board</p>
+                                <p>2016 - 2018</p>
+                                <p>78.8 %</p>
+                            </div>
+                            <div class="education">
+                                <p>Graduation (BE-ECE)</p>
+                                <p>AMC Engineering College</p>
+                                <p>VTU</p>
+                                <p>2018 - 2022</p>
+                                <p>7.5 CGPA</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="tec-sec" >
+                    <h5>TECHNICAL SKILLS</h5>
+                    <div class="lines"></div>
+                    <div class="inner-left">
+                        <div class="skills_wrapper" id="skillSec">
+                            <div class="skill-box">
+                                <p>HTML, CSS, JAVASCIPT</p>
+                                <div class="progress_wrap">
+                                    <span data-percent="70" class="progress_bar">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <p>PYTHON</p>
+                                <div class="progress_wrap">
+                                    <span data-percent="60" class="progress_bar">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <p>WEB DESIGN</p>
+                                <div class="progress_wrap">
+                                    <span data-percent="50" class="progress_bar">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <p>WEB DEVELOPMENT</p>
+                                <div class="progress_wrap">
+                                    <span data-percent="80" class="progress_bar">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+            <main class="right">
+                <section class="abt-me">
+                    <h5>ABOUT ME!</h5>
+                    <div class="lines"></div>
+                    <div class="inner-left">
+                        <div class="about-sec">
+                            <p>I'm Shashidhar Hegde,</p>
+                            <p>Pursuing <span>BE(ECE)</span> in <span>AMC Engineering College,
+                                    Bangalore.</span> Now Looking for an opportunity to utilize my acquired skills and
+                                training to help the company and my future peers to grow. I want my effort to
+                                make a considerable difference to the company and help in their consequent
+                                success. </p>
+                        </div>
+                </section>
+                <section>
+                    <h5>PROJECTS</h5>
+                    <div class="lines"></div>
+                    <div class="inner-left">
+                        <div class="projects">
+                            <p>PRE FINAL YEAR PROJECT :</p>
+                            <p>“Face recognition based attendence monitoring system”</p>
+                            <p>COLLEGE PROJECT :</p>
+                            <p>“Blutooth controlled car using arduino uno”</p>
+                        </div>
+                </section>
+                <section>
+                    <h5>CERTIFICATES</h5>
+                    <div class="lines"></div>
+                    <div class="inner-left">
+                        <div class="certificates">
+                            <p>HTML, CSS AND JAVASCRIPT FOR WEB DEVELOPERS,</p>
+                            <p>by Johns Hopkins University and offered through Coursera</p>
+                            <p>ADOBE PHOTOSHOP CC: YOUR COMPLETE BEGINNER TO ADVANCE CLASS</p>
+                            <p>taught by Phil Ebiner, Video School on Udemy</p>
+                        </div>
+                </section>
+                <section class="tec-sec-mbl" >
+                    <h5>TECHNICAL SKILLS</h5>
+                    <div class="lines"></div>
+                    <div class="inner-left">
+                        <div class="skills_wrapper" id="skillSec">
+                            <div class="skill-box">
+                                <p>HTML, CSS, JAVASCIPT</p>
+                                <div class="progress_wrap">
+                                    <span data-percent="70" class="progress_bar">
+                                        <span class="tooltip"></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <p>PYTHON</p>
+                                <div class="progress_wrap">
+                                    <span data-percent="60" class="progress_bar">
+                                        <span class="tooltip"></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <p>WEB DESIGN</p>
+                                <div class="progress_wrap">
+                                    <span data-percent="50" class="progress_bar">
+                                        <span class="tooltip"></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <p>WEB DEVELOPMENT</p>
+                                <div class="progress_wrap">
+                                    <span data-percent="80" class="progress_bar" id="progressBar">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h5>PERSONAL QUALITIES</h5>
+                    <div class="lines"></div>
+                    <div class="inner-left">
+                        <div class="per-quality">
+                            <ul class="inner-left">
+                                <li> Highly motivated and eager to learn new thing.</li>
+                                <li> Ability to produce best result in pressure situation.</li>
+                                <li> Good in communication and written skill.</li>
+                                <li> Ability to work in individual as well as in a group.</li>
+                                <li> Ability to clarify the doubt.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h5>PERSONAL INFORMATION</h5>
+                    <div class="lines"></div>
+                    <div class="inner-left">
+                        <div class="per-info">
+                            <p>
+                                <span>Name</span>
+                                <span>Shashidhar Satish Hegde</span>
+                            </p>
+                            <p>
+                                <span> Father's name</span>
+                                <span>Satish Hegde</span>
+                            </p>
+
+                            <p>
+                                <span>Date OF Birth</span>
+                                <span>16/06/2000</span>
+                            </p>
+
+                            <p>
+                                <span>Spoken Language</span>
+                                <span>Kannada, English, Hindi</span>
+                            </p>
+
+                            <p>
+                                <span>Nationality</span>
+                                <span>Indian</span>
+                            </p>
+
+                            <p>
+                                <span>Hobbies</span>
+                                <span>Reading news paper, Surfing internet, Editing images</span>
+                            </p>
+                        </div>
+                </section>
+            </main>
+        </main>
+
+    </header>
+
+    <footer class="container">
+        Footer
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./plugins/headline.js"></script>
+    <script src='script.js'></script>
+
+</body>
+
+</html>
